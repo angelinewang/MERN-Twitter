@@ -1,0 +1,28 @@
+.navbar-twitter {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 3vh; */
+    padding: 5px;
+    background-color: #4abbff;
+    top: 0;
+    position: fixed;
+    z-index: 3;
+    width: 100vw;
+    /* Brings to front */
+}
+
+.left-side {
+    display: flex;
+}
+
+.left-side > * {
+    margin-right: 5vw;
+    padding: 5px;
+}
+
+.left-side > * :hover {
+    background-color: #4abbff;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
